@@ -15,16 +15,28 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Readme.md,
 			);
 			target = 2F0471012F4F1C6400CB844D /* DailyChallange */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		2F04712D2F507DFC00CB844D /* Exceptions for "DailyChallange" folder in "Compile Sources" phase from "DailyChallange" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 2F0470FE2F4F1C6400CB844D /* Sources */;
+			membershipExceptions = (
+				Readme.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2F0471042F4F1C6400CB844D /* DailyChallange */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				2F0471182F4F1D6500CB844D /* Exceptions for "DailyChallange" folder in "DailyChallange" target */,
+				2F04712D2F507DFC00CB844D /* Exceptions for "DailyChallange" folder in "Compile Sources" phase from "DailyChallange" target */,
 			);
 			path = DailyChallange;
 			sourceTree = "<group>";
